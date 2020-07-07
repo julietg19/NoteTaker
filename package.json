@@ -1,5 +1,5 @@
 {
-  "name": "NoteTaker",
+  "name": "notetaker",
   "version": "1.0.0",
   "description": "## Description",
   "main": "index.js",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/julietg19/NoteTaker/issues"
   },
-  "homepage": "https://github.com/julietg19/NoteTaker#readme"
+  "homepage": "https://github.com/julietg19/NoteTaker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
