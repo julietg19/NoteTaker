@@ -1,5 +1,4 @@
-//make html route
-// require path
+
 
 var path = require("path");
 
