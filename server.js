@@ -6,10 +6,6 @@ const express = require("express");
 
 const app = express();
 
-// set port
-
-const PORT = process.env.PORT || 3000;
-
 // data parsing/middleware
 
 app.use(express.json());
@@ -20,6 +16,9 @@ require("./routes/apiroutes")(app);
 
 require("./routes/htmlroutes")(app);
 
+// set port
+
+const PORT = process.env.PORT || 3000;
 
 //starts server
 
